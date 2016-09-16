@@ -14,7 +14,7 @@ class search_client():
 		self._config["hubcount"] = "0/1/0"
 
 		# debug files
-		self._debug_fh = open("debug-log.txt","w+")
+		# self._debug_fh = open("debug-log.txt","w+")
 
 		with open('search.csv', 'a+') as output_csvfile:
 			fieldnames = ['date', 'ip', 'search_query']
